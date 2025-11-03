@@ -1,6 +1,6 @@
 public class Day1 {
     public static void main(String[] args) {
-        String name = "YourName";           // ← change to your real name
+        String name = "Rick";           // ← change to your real name
         int yearsOff = 1;
         record Comeback(String msg) {}      // Java 17+ candy
 
