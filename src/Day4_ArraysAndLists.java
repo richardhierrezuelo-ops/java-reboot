@@ -34,12 +34,27 @@ public class Day4_ArraysAndLists {
         System.out.println("Max score: " + findMax(scores));
     }
 
-    // TYPE THIS METHOD YOURSELF (no copy-paste!)
-    public static int findMax(int[] arr) {
+    // using Stream
+    public static int findMax2(int[] arr) {
         // Loop through arr, track largest value, return it
         List<Integer> list = Arrays.stream(arr)
                 .boxed()
                 .collect(Collectors.toList());
         return Collections.max(list);
+    }
+
+    // Loop Version
+    public static int findMax(int[] arr) {
+        if (arr == null || arr.length == 0) {
+            throw new IllegalArgumentException("Array must not be null or empty");
+        }
+
+        int maxArr = arr[0];
+        for (int i=1; i<arr.length; i++) {
+            if (arr[i] > maxArr) {
+                maxArr = arr[i];
+            }
+        }
+        return maxArr;
     }
 }
