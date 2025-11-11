@@ -19,6 +19,7 @@ public class Day5_CenturyFromYear {
         System.out.println("2000 --> " + century(2000));
         System.out.println("89 --> " + century(89));
         System.out.println("2025 --> " + century(2025));
+        System.out.println("2101 --> " + century(2101));
 
     }
 
