@@ -10,7 +10,7 @@ public class Day1Main {
 
         // Reference behavior
         int[] arr1 = {1, 2, 3};
-        int[] arr2 = arr1; // Copies the REFERENCE (memory address), not the array
+        int[] arr2 = arr1; // Copies the reference to the same array, not the array itself
         arr2[0] = 99;      // Modifies array in Heap
 
         System.out.println("arr1[0]: " + arr1[0]); // Prints 99!

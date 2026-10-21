@@ -8,7 +8,8 @@ public class PersonalInfo {
         var previousRole = "Backend Java Dev";
         var motivationalMessage = "I'm back Stronger and Faster";
 
-        System.out.printf(name + ", " + age + ", " + previousRole + ", " + motivationalMessage);
+        System.out.printf("%s, %d, %s, %s%n",
+                name, age, previousRole, motivationalMessage);
 
         // Option 1: Clean println (most readable)
         System.out.println("Name: " + name);

@@ -14,9 +14,9 @@ public class BasicsDemo {
         //var example
         var city = "Bangalore";  //inferred as String
 
-        System.out.println(name + " is " + age + " yeard old.");
+        System.out.println(name + " is " + age + " years old.");
 
-        //String template (preview in new Java, or use formatted)
+        // Formatted output using printf
         System.out.printf("Salary: %.2f%n", salary);
     }
 

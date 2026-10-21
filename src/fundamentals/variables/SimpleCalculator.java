@@ -12,7 +12,7 @@ public class SimpleCalculator {
         int remainder = a % b;
 
         System.out.println("Sum: " + sum);
-        System.out.println("Sum Difference: " + difference);
+        System.out.println("Difference: " + difference);
         System.out.println("Product: " + product);
         System.out.println("Quotient: " + quotient);
         System.out.println("Remainder: " + remainder);

@@ -14,6 +14,9 @@ public class JavaRebootDay1 {
 
         System.out.println("--------------");
         System.out.println("Age In 5 Years: " + calculateAgeInFiveYears(age));
+        System.out.println("Age In 0, After 5 Years: " + calculateAgeInFiveYears(0));
+        System.out.println("Age In 42, After 5 Years: " + calculateAgeInFiveYears(42));
+        System.out.println("Age In -1, After 5 Years: " + calculateAgeInFiveYears(-1));
         System.out.println("--------------");
         System.out.println("Is 10 an Even Number: " + isEven(10));
         System.out.println("Is 7 an Even Number: " + isEven(7));
@@ -21,7 +24,7 @@ public class JavaRebootDay1 {
     }
 
     public static int calculateAgeInFiveYears(int age) {
-        if (age <= 0) {
+        if (age < 0) {
             return 0;
         }
 
