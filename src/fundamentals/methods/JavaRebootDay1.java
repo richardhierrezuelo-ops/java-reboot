@@ -1,3 +1,5 @@
+package fundamentals.methods;
+
 public class JavaRebootDay1 {
     public static void main(String[] args) {
         String name = "Richard";

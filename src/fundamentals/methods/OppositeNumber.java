@@ -1,3 +1,5 @@
+package fundamentals.methods;
+
 public class OppositeNumber {
     public static void main(String[] args) {
             System.out.println("1: "  + oppositeNumber(1));

@@ -1,3 +1,5 @@
+package fundamentals.variables;
+
 public class Day1Main {
     public static void main(String[] args) {
         // Primitive behavior

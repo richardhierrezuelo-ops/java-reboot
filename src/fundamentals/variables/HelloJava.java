@@ -1,3 +1,5 @@
+package fundamentals.variables;
+
 public class HelloJava {
     public static void main(String[] args)  {
         System.out.println("Hell, Java Reboot! Ready to dominate interviews. ");

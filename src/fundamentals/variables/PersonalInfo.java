@@ -1,3 +1,5 @@
+package fundamentals.variables;
+
 public class PersonalInfo {
 
     public static void main(String[] args) {

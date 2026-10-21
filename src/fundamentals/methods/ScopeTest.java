@@ -1,3 +1,5 @@
+package fundamentals.methods;
+
 public class ScopeTest {
     public static void main(String[] args) {
         int val = 100;

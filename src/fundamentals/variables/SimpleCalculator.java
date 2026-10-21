@@ -1,3 +1,5 @@
+package fundamentals.variables;
+
 public class SimpleCalculator {
     public static void main(String[] args) {
         int a = 15;

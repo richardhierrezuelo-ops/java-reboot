@@ -1,3 +1,5 @@
+package fundamentals.methods;
+
 public class JavaRebootLessonExample {
 
     public static void main(String[] args) {

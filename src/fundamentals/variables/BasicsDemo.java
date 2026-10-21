@@ -1,3 +1,5 @@
+package fundamentals.variables;
+
 public class BasicsDemo {
     public static void main(String[] args) {
         //Primitives
