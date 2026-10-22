@@ -1,3 +1,5 @@
+package fundamentals.loops;
+
 public class LoopsDemo {
     public static void main(String[] args) {
 

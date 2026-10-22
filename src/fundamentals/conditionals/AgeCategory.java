@@ -1,3 +1,5 @@
+package fundamentals.conditionals;
+
 public class AgeCategory {
     public static void main(String[] args) {
 
@@ -5,9 +7,14 @@ public class AgeCategory {
         System.out.println("Age 15 is: " + getAgeCategory(15));
         System.out.println("Age 30 is: " + getAgeCategory(30));
         System.out.println("Age 70 is: " + getAgeCategory(70));
+        System.out.println("Age -1 is: " + getAgeCategory(-1));
     }
 
     public static String getAgeCategory(int age) {
+        if (age < 0) {
+            return "Invalid Age";
+        }
+
         if (age < 13) {
             return "Child";
         } else if (age >= 13 && age <= 17) {

@@ -1,3 +1,5 @@
+package algorithms.arrays;
+
 import java.util.Arrays;
 
 public class CountByX {
@@ -5,6 +7,8 @@ public class CountByX {
 
         System.out.println("x = 2, n = 5 --> " + Arrays.toString(countBy(2,5)));
         System.out.println("x = 1, n = 10 --> " + Arrays.toString(countBy(1,10)));
+        System.out.println("x = 3, n = 4 --> " + Arrays.toString(countBy(3,4)));
+
     }
 
     // Create a function with two arguments that will return an array of the first n multiples of x.

@@ -1,3 +1,5 @@
+package algorithms.strings;
+
 public class FakeBinary {
     public static void main(String[] args) {
         var digits = "1234567890";

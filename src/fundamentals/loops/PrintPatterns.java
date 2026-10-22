@@ -1,3 +1,5 @@
+package fundamentals.loops;
+
 public class PrintPatterns {
     public static void main(String[] args) {
 
@@ -27,6 +29,7 @@ public class PrintPatterns {
             System.out.println(pattern);
         }
 
+        System.out.println();
         printDecreasingStars(5);
 
     }

@@ -1,3 +1,5 @@
+package fundamentals.methods;
+
 public class MethodPractice {
     public static void main(String[] args) {
         System.out.println("26 -> " + isEven(26));
@@ -6,6 +8,6 @@ public class MethodPractice {
     }
 
     public static boolean isEven(int number) {
-        return number %2 == 0;
+        return number % 2 == 0;
     }
 }

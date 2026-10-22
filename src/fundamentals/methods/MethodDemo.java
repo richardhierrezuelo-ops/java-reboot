@@ -1,9 +1,13 @@
+package fundamentals.methods;
+
 public class MethodDemo {
 
     public static void main(String[] args) {
         greet("Rick");
         int result = add(10, 25);
         System.out.println("Sum: " + result);
+
+        System.out.println("Sum of three numbers: " + add(10, 20, 30));
     }
 
     // Method with parameter
